@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // ✅ MongoDB URI (use env var on Render)
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://aryanuser:aryanmongo@cluster0.bikutzo.mongodb.net/aryanuser";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://aryanuser:aryanmongo@cluster0.5owmkiv.mongodb.net/aryanuser";
 
 // ✅ Connect to MongoDB
 mongoose.connect(MONGO_URI)
